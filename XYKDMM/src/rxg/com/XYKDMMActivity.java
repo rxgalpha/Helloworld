@@ -11,7 +11,6 @@ import android.widget.Button;
 public class XYKDMMActivity extends Activity {
 	private Button myButton=null;
 	
-    /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
