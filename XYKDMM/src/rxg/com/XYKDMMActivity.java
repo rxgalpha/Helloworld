@@ -29,8 +29,7 @@ public class XYKDMMActivity extends Activity {
 			Intent intent = new Intent(Intent.ACTION_SENDTO, uri);
 			intent.putExtra("sms_body", "XYKDMM");
 			startActivity(intent);
+			finish();
 		}
-
-    	
     }
 }
