@@ -24,7 +24,6 @@ public class XYKDMMActivity extends Activity {
 
 		@Override
 		public void onClick(View v) {
-			// TODO Auto-generated method stub
 			Uri uri = Uri.parse("smsto:10001");
 			Intent intent = new Intent(Intent.ACTION_SENDTO, uri);
 			intent.putExtra("sms_body", "XYKDMM");
